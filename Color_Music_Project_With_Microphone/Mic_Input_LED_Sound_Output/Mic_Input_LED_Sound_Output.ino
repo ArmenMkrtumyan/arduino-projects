@@ -148,7 +148,6 @@ void loop() {
 
     if(get_sample() < 2) max = 0;
 
-      (max < 200) ? digitalWrite(led_1, LOW) : digitalWrite(led_1, LOW);
   (max > 200) ? digitalWrite(led_1, HIGH) : digitalWrite(led_1, LOW);
   (max > 600 ) ? digitalWrite(led_2, HIGH) : digitalWrite(led_2, LOW);
   (max > 1000 ) ? digitalWrite(led_3, HIGH) : digitalWrite(led_3, LOW);
