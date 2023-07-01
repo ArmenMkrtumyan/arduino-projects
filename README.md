@@ -41,7 +41,7 @@ Refer to the specific datasheets and pinouts of your components for more detaile
 1. Connect the Arduino board to your computer using a USB cable.
 2. Install the Arduino IDE from the [official Arduino website](https://www.arduino.cc/en/software).
 3. Open the Arduino IDE and create a new sketch.
-4. Copy and paste the code provided in this repository's `arduino_code.ino` file into the Arduino IDE.
+4. Copy and paste the code provided in this repository
 5. Modify the code as needed to match your specific hardware setup or customization preferences.
 6. Upload the code to the Arduino board using the Arduino IDE.
 7. Power on the LED strips and ensure they are properly connected and working.
@@ -61,24 +61,5 @@ Refer to the specific datasheets and pinouts of your components for more detaile
 - Verify that the Arduino board is properly recognized by the computer and that the correct board and port are selected in the Arduino IDE.
 - Check for any error messages or warnings displayed in the Arduino IDE during code upload or execution.
 
-## Contributing
-
-Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your contribution: `git checkout -b my-contribution`.
-3. Make your changes and commit them: `git commit -am 'Add some feature'`.
-4. Push the changes to your fork: `git push origin my-contribution`.
-5. Submit a pull request to the main repository.
-
-Please ensure that your code adheres to the project's coding standards and includes appropriate documentation.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- The Arduino community for their valuable contributions and support.
-- The open-source community for providing inspiration and resources.
-- The creators of the libraries
+## Contact
+For any questions or inquiries, please contact - armen.v.mkyan@gmail.com
