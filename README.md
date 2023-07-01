@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://cdn-60c13ad2c1ac185aa47dad63.closte.com/wp-content/uploads/2021/01/ruban-led-home-3-1000x1000.jpg" width="600"/>
+  <img src="https://cdn-60c13ad2c1ac185aa47dad63.closte.com/wp-content/uploads/2021/01/ruban-led-home-3-1000x1000.jpg" width="400"/>
 </div>
 
 <h1 align="center">Arduino Color Music Project</h1>
