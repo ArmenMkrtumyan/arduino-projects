@@ -112,14 +112,14 @@ void loop() {
    {
 
   
-   /* Build data with positive and negative values*/
-   vReal[i] = get_sample();
-  // (vReal[i] < 2) ? should_be_zero = true : should_be_zero = false;
-   //Serial.println(micLev);
-  //vReal[i] = uint8_t((amplitude * (sin((i * (twoPi * cycles)) / samples) + 1.0)) / 2.0);
-   /* Build data displaced on the Y axis to include only positive values*/
-   /* Imaginary part must be zeroed in case of looping to avoid wrong calculations and overflows */
-   vImag[i] = 0.0;
+      /* Build data with positive and negative values*/
+      vReal[i] = get_sample();
+      // (vReal[i] < 2) ? should_be_zero = true : should_be_zero = false;
+      //Serial.println(micLev);
+      //vReal[i] = uint8_t((amplitude * (sin((i * (twoPi * cycles)) / samples) + 1.0)) / 2.0);
+      /* Build data displaced on the Y axis to include only positive values*/
+      /* Imaginary part must be zeroed in case of looping to avoid wrong calculations and overflows */
+      vImag[i] = 0.0;
     
    }
    
